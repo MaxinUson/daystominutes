@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Days to minutes converter</title>
+</head>
+<body bgcolor="beige">
+<h2>Days to minutes</h2>
+<input type="text" id="id2" placeholder="Enter amount of days"><br>
+<input type="submit" value="Compute" onclick="myFunction2()"><br>
+<p id="answer2"></p>
+<script>
+function myFunction2() {
+var num1 = document.getElementById('id2').value;
+var num2 = 1440;
+var answer = Number(num1) * Number(num2);
+document.getElementById('answer2').innerHTML = "The result in minutes is " + answer;
+}
+</script>
+</body>
+</html>
